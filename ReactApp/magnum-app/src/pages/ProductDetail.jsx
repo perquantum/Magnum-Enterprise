@@ -16,7 +16,7 @@ const ProductDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const { toast } = useToast();
-  
+
   const product = useMemo(() => {
     return products.find(p => p.id === parseInt(id));
   }, [id]);
@@ -47,10 +47,33 @@ const ProductDetail = () => {
   }
 
   const handleAddToCart = () => {
-    toast({
-      title: "🚧 Feature Coming Soon",
-      description: "🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀",
-    });
+    const to = "magnumenterprise@mail.com";
+
+    const subject = encodeURIComponent(
+      `Request for Quote – ${product.name}`
+    );
+
+    const body = encodeURIComponent(
+      `Hello,
+
+I would like to request a quote for the following product:
+
+Product Name: ${product.name}
+Formula: ${product.formula}
+CAS Number: ${product.casNumber}
+Purity: ${product.purity}
+Category: ${product.category}
+
+Please let me know pricing, MOQ, and delivery timelines.
+
+Thanks & Regards,
+`
+    );
+
+    const gmailUrl =
+      `https://mail.google.com/mail/?view=cm&fs=1&to=${to}&su=${subject}&body=${body}`;
+
+    window.open(gmailUrl, "_blank");
   };
 
   return (
@@ -103,8 +126,8 @@ const ProductDetail = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
               {/* Product Image */}
               <div className="h-96 lg:h-auto bg-gradient-to-br from-blue-50 to-gray-50">
-                <img 
-                  src={product.imageUrl} 
+                <img
+                  src={product.imageUrl}
                   alt={product.name}
                   className="w-full h-full object-cover"
                 />
@@ -158,7 +181,7 @@ const ProductDetail = () => {
                 </div>
 
                 {/* Add to Cart Button */}
-                <Button 
+                <Button
                   onClick={handleAddToCart}
                   size="lg"
                   className="w-full bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 shadow-lg hover:shadow-xl transition-all duration-300 text-lg py-6"
