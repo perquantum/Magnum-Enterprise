@@ -1,0 +1,257 @@
+[
+  {
+    "Id": 1,
+    "Name": "Acetone",
+    "Formula": "C\u2083H\u2086O",
+    "CasNumber": "67-64-1",
+    "Purity": "99.9%",
+    "MolecularWeight": "58.08 g/mol",
+    "Density": "0.791 g/cm\u00B3",
+    "BoilingPoint": "56\u00B0C",
+    "MeltingPoint": "-95\u00B0C",
+    "Category": "Solvents",
+    "Hazards": [
+      "Highly flammable",
+      "May cause drowsiness or dizziness",
+      "Eye irritant"
+    ],
+    "StorageRequirements": "Store in a well-ventilated area. Keep away from heat, sparks, and open flames.",
+    "ImageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400\u0026h=300\u0026fit=crop",
+    "Description": "Pure acetone solvent ideal for cleaning, extraction, and general laboratory use."
+  },
+  {
+    "Id": 2,
+    "Name": "Ethanol",
+    "Formula": "C\u2082H\u2085OH",
+    "CasNumber": "64-17-5",
+    "Purity": "99.5%",
+    "MolecularWeight": "46.07 g/mol",
+    "Density": "0.789 g/cm\u00B3",
+    "BoilingPoint": "78.4\u00B0C",
+    "MeltingPoint": "-114\u00B0C",
+    "Category": "Solvents",
+    "Hazards": [
+      "Highly flammable",
+      "May cause drowsiness"
+    ],
+    "StorageRequirements": "Store in cool, well-ventilated area away from ignition sources.",
+    "ImageUrl": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=400\u0026h=300\u0026fit=crop",
+    "Description": "Absolute ethanol for laboratory and industrial applications."
+  },
+  {
+    "Id": 3,
+    "Name": "Hydrochloric Acid",
+    "Formula": "HCl",
+    "CasNumber": "7647-01-0",
+    "Purity": "37%",
+    "MolecularWeight": "36.46 g/mol",
+    "Density": "1.18 g/cm\u00B3",
+    "BoilingPoint": "110\u00B0C",
+    "MeltingPoint": "-27\u00B0C",
+    "Category": "Acids",
+    "Hazards": [
+      "Corrosive",
+      "Causes severe burns",
+      "May cause respiratory irritation"
+    ],
+    "StorageRequirements": "Store in corrosion-resistant containers in well-ventilated area.",
+    "ImageUrl": "https://images.unsplash.com/photo-1582719366144-e3f2b7c0b3b0?w=400\u0026h=300\u0026fit=crop",
+    "Description": "Concentrated hydrochloric acid for pH adjustment, cleaning, and chemical synthesis."
+  },
+  {
+    "Id": 4,
+    "Name": "Sodium Hydroxide",
+    "Formula": "NaOH",
+    "CasNumber": "1310-73-2",
+    "Purity": "98%",
+    "MolecularWeight": "40.00 g/mol",
+    "Density": "2.13 g/cm\u00B3",
+    "BoilingPoint": "1388\u00B0C",
+    "MeltingPoint": "318\u00B0C",
+    "Category": "Bases",
+    "Hazards": [
+      "Highly corrosive",
+      "Causes severe burns",
+      "May cause blindness"
+    ],
+    "StorageRequirements": "Store in airtight container. Keep away from moisture and acids.",
+    "ImageUrl": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=400\u0026h=300\u0026fit=crop",
+    "Description": "High purity caustic soda pellets for industrial and laboratory use."
+  },
+  {
+    "Id": 5,
+    "Name": "Methanol",
+    "Formula": "CH\u2083OH",
+    "CasNumber": "67-56-1",
+    "Purity": "99.8%",
+    "MolecularWeight": "32.04 g/mol",
+    "Density": "0.792 g/cm\u00B3",
+    "BoilingPoint": "64.7\u00B0C",
+    "MeltingPoint": "-97.6\u00B0C",
+    "Category": "Solvents",
+    "Hazards": [
+      "Highly flammable",
+      "Toxic if swallowed or inhaled",
+      "May cause blindness"
+    ],
+    "StorageRequirements": "Store in cool, well-ventilated area. Keep away from heat and ignition sources.",
+    "ImageUrl": "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=400\u0026h=300\u0026fit=crop",
+    "Description": "HPLC grade methanol for chromatography and analytical applications."
+  },
+  {
+    "Id": 6,
+    "Name": "Potassium Permanganate",
+    "Formula": "KMnO\u2084",
+    "CasNumber": "7722-64-7",
+    "Purity": "99%",
+    "MolecularWeight": "158.03 g/mol",
+    "Density": "2.70 g/cm\u00B3",
+    "BoilingPoint": "Decomposes",
+    "MeltingPoint": "240\u00B0C",
+    "Category": "Reagents",
+    "Hazards": [
+      "Oxidizer",
+      "Harmful if swallowed",
+      "May cause skin irritation"
+    ],
+    "StorageRequirements": "Store in cool, dry place. Keep away from combustible materials.",
+    "ImageUrl": "https://images.unsplash.com/photo-1610056494085-05e9fb6673ee?w=400\u0026h=300\u0026fit=crop",
+    "Description": "Crystalline potassium permanganate for oxidation reactions and titrations."
+  },
+  {
+    "Id": 7,
+    "Name": "Calcium Carbonate",
+    "Formula": "CaCO\u2083",
+    "CasNumber": "471-34-1",
+    "Purity": "99%",
+    "MolecularWeight": "100.09 g/mol",
+    "Density": "2.71 g/cm\u00B3",
+    "BoilingPoint": "Decomposes at 825\u00B0C",
+    "MeltingPoint": "1339\u00B0C",
+    "Category": "Salts",
+    "Hazards": [
+      "May cause eye irritation"
+    ],
+    "StorageRequirements": "Store in dry conditions. Protect from moisture.",
+    "ImageUrl": "https://images.unsplash.com/photo-1532634993-15f421e42ec0?w=400\u0026h=300\u0026fit=crop",
+    "Description": "Precipitated calcium carbonate for laboratory use and chemical synthesis."
+  },
+  {
+    "Id": 8,
+    "Name": "Acetic Acid",
+    "Formula": "CH\u2083COOH",
+    "CasNumber": "64-19-7",
+    "Purity": "99.7%",
+    "MolecularWeight": "60.05 g/mol",
+    "Density": "1.05 g/cm\u00B3",
+    "BoilingPoint": "118\u00B0C",
+    "MeltingPoint": "16.6\u00B0C",
+    "Category": "Acids",
+    "Hazards": [
+      "Corrosive",
+      "Flammable",
+      "Causes severe burns"
+    ],
+    "StorageRequirements": "Store in cool, well-ventilated area away from incompatible materials.",
+    "ImageUrl": "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=400\u0026h=300\u0026fit=crop",
+    "Description": "Glacial acetic acid for pH adjustment, buffer preparation, and synthesis."
+  },
+  {
+    "Id": 9,
+    "Name": "Ammonium Hydroxide",
+    "Formula": "NH\u2084OH",
+    "CasNumber": "1336-21-6",
+    "Purity": "28-30%",
+    "MolecularWeight": "35.05 g/mol",
+    "Density": "0.90 g/cm\u00B3",
+    "BoilingPoint": "37.7\u00B0C",
+    "MeltingPoint": "-77\u00B0C",
+    "Category": "Bases",
+    "Hazards": [
+      "Corrosive",
+      "Toxic by inhalation",
+      "Causes severe burns"
+    ],
+    "StorageRequirements": "Store in cool, well-ventilated area. Keep container tightly closed.",
+    "ImageUrl": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=400\u0026h=300\u0026fit=crop",
+    "Description": "Aqueous ammonia solution for pH adjustment and analytical chemistry."
+  },
+  {
+    "Id": 10,
+    "Name": "Phenolphthalein",
+    "Formula": "C\u2082\u2080H\u2081\u2084O\u2084",
+    "CasNumber": "77-09-8",
+    "Purity": "98%",
+    "MolecularWeight": "318.32 g/mol",
+    "Density": "1.28 g/cm\u00B3",
+    "BoilingPoint": "Decomposes",
+    "MeltingPoint": "258-263\u00B0C",
+    "Category": "Reagents",
+    "Hazards": [
+      "Harmful if swallowed",
+      "May cause skin irritation"
+    ],
+    "StorageRequirements": "Store in cool, dry place away from light.",
+    "ImageUrl": "https://images.unsplash.com/photo-1610056494085-05e9fb6673ee?w=400\u0026h=300\u0026fit=crop",
+    "Description": "pH indicator for acid-base titrations, color change range pH 8.2-10.0."
+  },
+  {
+    "Id": 11,
+    "Name": "Isopropyl Alcohol",
+    "Formula": "C\u2083H\u2088O",
+    "CasNumber": "67-63-0",
+    "Purity": "99.5%",
+    "MolecularWeight": "60.10 g/mol",
+    "Density": "0.786 g/cm\u00B3",
+    "BoilingPoint": "82.6\u00B0C",
+    "MeltingPoint": "-89\u00B0C",
+    "Category": "Solvents",
+    "Hazards": [
+      "Highly flammable",
+      "May cause drowsiness",
+      "Eye irritant"
+    ],
+    "StorageRequirements": "Store in cool, well-ventilated area. Keep away from heat and ignition sources.",
+    "ImageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400\u0026h=300\u0026fit=crop",
+    "Description": "High purity isopropanol for cleaning, disinfection, and laboratory use."
+  },
+  {
+    "Id": 12,
+    "Name": "Silver Nitrate",
+    "Formula": "AgNO\u2083",
+    "CasNumber": "7761-88-8",
+    "Purity": "99.9%",
+    "MolecularWeight": "169.87 g/mol",
+    "Density": "4.35 g/cm\u00B3",
+    "BoilingPoint": "444\u00B0C (decomposes)",
+    "MeltingPoint": "212\u00B0C",
+    "Category": "Reagents",
+    "Hazards": [
+      "Oxidizer",
+      "Corrosive",
+      "Causes severe burns",
+      "Harmful to aquatic life"
+    ],
+    "StorageRequirements": "Store in dark glass bottles. Protect from light. Keep away from organic materials.",
+    "ImageUrl": "https://images.unsplash.com/photo-1610056494249-f4c30eac5ea4?w=400\u0026h=300\u0026fit=crop",
+    "Description": "ACS reagent grade silver nitrate for analytical chemistry and precipitation reactions."
+  },
+  {
+    "Id": 13,
+    "Name": "Magnesium Sulfate",
+    "Formula": "MgSO\u2084",
+    "CasNumber": "7487-88-9",
+    "Purity": "99.5%",
+    "MolecularWeight": "120.37 g/mol",
+    "Density": "2.66 g/cm\u00B3",
+    "BoilingPoint": "Decomposes at 1124\u00B0C",
+    "MeltingPoint": "1124\u00B0C",
+    "Category": "Salts",
+    "Hazards": [
+      "May cause eye irritation"
+    ],
+    "StorageRequirements": "Store in dry conditions. Keep container tightly closed.",
+    "ImageUrl": "https://images.unsplash.com/photo-1532634993-15f421e42ec0?w=400\u0026h=300\u0026fit=crop",
+    "Description": "Anhydrous magnesium sulfate for desiccation and laboratory applications."
+  }
+]

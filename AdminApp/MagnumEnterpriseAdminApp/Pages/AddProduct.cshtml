@@ -1,0 +1,107 @@
+﻿@page
+@model AddProductModel
+@{
+    ViewData["Title"] = "Add Product";
+}
+
+<h1>Add Product</h1>
+
+<form method="post" class="mt-4">
+
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label asp-for="Product.Name" class="form-label">Name</label>
+            <input asp-for="Product.Name" class="form-control" />
+            <span asp-validation-for="Product.Name" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label asp-for="Product.Formula" class="form-label">Formula</label>
+            <input asp-for="Product.Formula" class="form-control" />
+            <span asp-validation-for="Product.Formula" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label asp-for="Product.CasNumber" class="form-label">CAS Number</label>
+            <input asp-for="Product.CasNumber" class="form-control" />
+            <span asp-validation-for="Product.CasNumber" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label asp-for="Product.Purity" class="form-label">Purity</label>
+            <input asp-for="Product.Purity" class="form-control" />
+            <span asp-validation-for="Product.Purity" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label asp-for="Product.MolecularWeight" class="form-label">Molecular Weight</label>
+            <input asp-for="Product.MolecularWeight" class="form-control" />
+            <span asp-validation-for="Product.MolecularWeight" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label asp-for="Product.Density" class="form-label">Density</label>
+            <input asp-for="Product.Density" class="form-control" />
+            <span asp-validation-for="Product.Density" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label asp-for="Product.BoilingPoint" class="form-label">Boiling Point</label>
+            <input asp-for="Product.BoilingPoint" class="form-control" />
+            <span asp-validation-for="Product.BoilingPoint" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label asp-for="Product.MeltingPoint" class="form-label">Melting Point</label>
+            <input asp-for="Product.MeltingPoint" class="form-control" />
+            <span asp-validation-for="Product.MeltingPoint" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label asp-for="Product.Category" class="form-label">Category</label>
+            <input asp-for="Product.Category" class="form-control" />
+            <span asp-validation-for="Product.Category" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label class="form-label">Hazards (comma separated)</label>
+            <input asp-for="HazardsInput" class="form-control" />
+            <span asp-validation-for="Product.Hazards" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label asp-for="Product.ImageUrl" class="form-label">Image URL</label>
+            <input asp-for="Product.ImageUrl" class="form-control" />
+            <span asp-validation-for="Product.ImageUrl" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label asp-for="Product.StorageRequirements" class="form-label">Storage Requirements</label>
+            <textarea asp-for="Product.StorageRequirements" class="form-control"></textarea>
+            <span asp-validation-for="Product.StorageRequirements" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Product.Description" class="form-label">Description</label>
+        <textarea asp-for="Product.Description" class="form-control"></textarea>
+        <span asp-validation-for="Product.Description" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-page="/Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

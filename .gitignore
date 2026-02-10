@@ -1,0 +1,16 @@
+# ===== React =====
+ReactApp/**/node_modules/
+ReactApp/**/dist/
+ReactApp/**/.env
+
+# ===== .NET =====
+AdminApp/**/bin/
+AdminApp/**/obj/
+AdminApp/**/.vs/
+
+# ===== OS / IDE =====
+.vs/
+.idea/
+*.user
+*.suo
+*.log
