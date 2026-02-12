@@ -40,6 +40,7 @@ public class IndexModel : PageModel
     {
         try
         {
+            GitService.PullLatest();
             Build.SyncProductsJson();
             Build.BuildReactApp();
             await DeploymentService.DeployAsync();
