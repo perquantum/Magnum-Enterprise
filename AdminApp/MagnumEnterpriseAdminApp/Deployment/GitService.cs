@@ -7,18 +7,18 @@ public static class GitService
 {
     public static void PullLatest()
     {
-        Run("git reset --hard");
-        Run("git pull origin main");
+        Run("reset --hard");
+        Run("pull origin main");
     }
 
-    private static void Run(string command)
+    private static void Run(string arguments)
     {
         var process = new Process
         {
             StartInfo = new ProcessStartInfo
             {
                 FileName = @"C:\Program Files\Git\cmd\git.exe",
-                Arguments = $"/c {command}",
+                Arguments = arguments,
                 WorkingDirectory = ReactWorkingDirectory,
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
@@ -28,11 +28,15 @@ public static class GitService
         };
 
         process.Start();
+
+        string output = process.StandardOutput.ReadToEnd();
+        string error = process.StandardError.ReadToEnd();
+
         process.WaitForExit();
 
         if (process.ExitCode != 0)
         {
-            throw new Exception("Git command failed: " + command);
+            throw new Exception($"Git failed.\nCommand: git {arguments}\n\nOutput:\n{output}\n\nError:\n{error}");
         }
     }
 }
