@@ -19,7 +19,7 @@ public static class Constants
 
     public static class ProductsJsonDirectory
     {
-        public const string AdminJson = @"D:\Magnum-Enterprise\AdminApp\MagnumEnterpriseAdminApp\wwwroot\Products.json";
+        public const string AdminJson = @"C:\inetpub\MagnumAdmin\wwwroot\Products.json";
         public const string ReactJson = @"D:\Magnum-Enterprise\ReactApp\magnum-app\src\data\products.json";
         public const string FileName = "products.json";
     }
