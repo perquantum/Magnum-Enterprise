@@ -17,7 +17,7 @@ public static class GitService
         {
             StartInfo = new ProcessStartInfo
             {
-                FileName = "cmd.exe",
+                FileName = @"C:\Program Files\Git\cmd\git.exe",
                 Arguments = $"/c {command}",
                 WorkingDirectory = ReactWorkingDirectory,
                 RedirectStandardOutput = true,
